@@ -11,8 +11,8 @@ def mysql_connection():
         connection = mysql.connector.connect(
             host=os.getenv("MYSQL_HOST", "127.0.0.1"),
             user=os.getenv("MYSQL_USER", "root"),
-            password=os.getenv("MYSQL_PASSWORD", "testpassword"),
-            database=os.getenv("MYSQL_DATABASE", "test_db")
+            password=os.getenv("MYSQL_PASSWORD", "Xinmima1[]"),
+            database=os.getenv("MYSQL_DATABASE", "demo")
         )
         
         if connection.is_connected():
